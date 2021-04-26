@@ -30,7 +30,7 @@
 #endif
 #ifndef LFS_NO_ASSERT
 #ifdef __ZEPHYR__
-#include <sys/__assert.h>
+#include <misc/__assert.h>
 #else  /* __ZEPHYR__ */
 #include <assert.h>
 #endif  /* __ZEPHYR__ */
